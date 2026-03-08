@@ -1,0 +1,56 @@
+# General Python ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
+*.exe
+
+# Logs and temporary files
+*.log
+*.out
+*.pid
+*.swp
+*.swo
+*.DS_Store
+
+# Cache
+*.cache
+.cache/
+**/__pycache__/
+.ipynb_checkpoints
+*.mypy_cache
+.mypy_cache/
+*.pytest_cache
+.pytest_cache/
+
+# Models and large binaries
+models/
+*.trt
+*.onnx
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
+
+# Dependency and Package Files
+node_modules/
+requirements.txt
+*.egg
+*.egg-info/
+Pipfile
+Pipfile.lock
+
+# OS Specific
+Thumbs.db
